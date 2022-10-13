@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.6
 import PackageDescription
  
 let package = Package(
@@ -25,7 +25,7 @@ let package = Package(
        .binaryTarget(
            name: "RSEssentials",
            url: "https://github.com/rursache/RSEssentialsXC/raw/master/RSEssentials.xcframework.zip",
-           checksum: "4d581e92126565d7e2ce42bc975ffb3821e26dca14a9e6544b311bb2c7b08eb6")
+           checksum: "fb1eff6cdb09447216dd369e51ed553f2a15cfc027d803f2a13a178e50e3c9ca")
    ],
    swiftLanguageVersions: [.v5]
 )
