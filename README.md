@@ -7,10 +7,10 @@
 ## Installation
 - Swift Package Manager (SPM) - `https://github.com/rursache/RSEssentialsXC`
 
-**Note**: Versions up to v1.1.3 supports Xcode 12.x, however you need Xcode 13 for v1.1.4 and newer 
+
+> **Note**: RSEssentialsXC is build using Xcode 14.x
 
 ## Setup
-- In your `Info.plist` add the key `NSCameraUsageDescription` with value `We are using the camera to scan QR codes` (or anything you see fit)
 - In your `Info.plist` add the key `ITSAppUsesNonExemptEncryption` with value `NO`
 
 ## License
