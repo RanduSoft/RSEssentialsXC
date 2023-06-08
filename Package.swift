@@ -1,23 +1,20 @@
-// swift-tools-version:5.7.1
+// swift-tools-version:5.8
 import PackageDescription
  
 let package = Package(
    name: "RSEssentials",
-   platforms: [.iOS(.v13)],
+   platforms: [.iOS("13.2")],
    products: [
        .library(
            name: "RSEssentials",
-           targets: ["RSEssentialsTarget"]),
+           targets: ["RSEssentialsTarget"]
+       ),
    ],
    targets: [
        .target(
             name: "RSEssentialsTarget",
-            dependencies: [.target(name: "RSEssentialsWrapper")],
-            path: "RSEssentialsWrap"),
-       .target(
-            name: "RSEssentialsWrapper",
             dependencies: ["RSEssentials", "RSEssentialsDesignables"],
-            path: "RSEssentialsWrapper"),
+            path: "Wrapper"),
 		.target(
 			name: "RSEssentialsDesignables",
 			dependencies: ["RSEssentials"],
@@ -25,7 +22,6 @@ let package = Package(
        .binaryTarget(
            name: "RSEssentials",
            url: "https://github.com/rursache/RSEssentialsXC/raw/master/RSEssentials.xcframework.zip",
-           checksum: "1a40aaaaa16c5f30794efed29500724a0add1e2e795518a1991b923351b7826f")
-   ],
-   swiftLanguageVersions: [.v5]
+           checksum: "9d4da8b2e3e6879e9499abd926eb28466046d301d2ef916ec875adbf8ff1b4f2")
+   ]
 )
