@@ -2,7 +2,7 @@
 
 <img src="https://i.imgur.com/xRZRZiF.png" width="100" height="100">
 
-RSEssentials is collection of utils and extensions used on most of my projects
+RSEssentials is a collection of utils and extensions used on most of my projects
 
 ## Installation
 - Swift Package Manager (SPM) - `https://github.com/rursache/RSEssentialsXC`
