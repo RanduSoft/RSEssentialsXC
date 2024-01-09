@@ -1,4 +1,5 @@
-// swift-tools-version:5.8
+// swift-tools-version:5.9
+
 import PackageDescription
  
 let package = Package(
@@ -14,14 +15,18 @@ let package = Package(
        .target(
             name: "RSEssentialsTarget",
             dependencies: ["RSEssentials", "RSEssentialsDesignables"],
-            path: "Wrapper"),
+            path: "Wrapper",
+            resources: [.copy("PrivacyInfo.xcprivacy")]
+        ),
 		.target(
 			name: "RSEssentialsDesignables",
 			dependencies: ["RSEssentials"],
-			path: "Files"),
+			path: "Files"
+        ),
        .binaryTarget(
            name: "RSEssentials",
            url: "https://github.com/rursache/RSEssentialsXC/raw/master/RSEssentials.xcframework.zip",
-           checksum: "bf15f15f4cc7067cf2217078c67741d246d08259512b3a4b1e7afa848b513220")
+           checksum: "3a944038116e1132535e3a18cdead95480fcfdc6ca5da0f9498c8a82e0b66f3a")
+        )
    ]
 )
