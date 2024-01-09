@@ -27,6 +27,5 @@ let package = Package(
            name: "RSEssentials",
            url: "https://github.com/rursache/RSEssentialsXC/raw/master/RSEssentials.xcframework.zip",
            checksum: "3a944038116e1132535e3a18cdead95480fcfdc6ca5da0f9498c8a82e0b66f3a")
-        )
    ]
 )
