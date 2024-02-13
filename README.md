@@ -15,6 +15,8 @@ RSEssentials is a collection of utils and extensions used on most of my projects
 Start by implementing `RSBaseViewController`, `RSUtils` and `RSLogger`
 
 ## Documentation
+[![pages-build-deployment](https://github.com/rursache/RSEssentialsXC/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/rursache/RSEssentialsXC/actions/workflows/pages/pages-build-deployment)
+
 The documentation is available [here](https://rursache.github.io/RSEssentialsXC/documentation/rsessentials) 
 
 ## License
