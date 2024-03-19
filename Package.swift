@@ -16,7 +16,9 @@ let package = Package(
             name: "RSEssentialsTarget",
             dependencies: ["RSEssentials", "RSEssentialsDesignables"],
             path: "Wrapper",
-            resources: [.copy("PrivacyInfo.xcprivacy")]
+            resources: [
+                .copy("PrivacyInfo.xcprivacy")
+            ]
         ),
 		.target(
 			name: "RSEssentialsDesignables",
@@ -26,6 +28,6 @@ let package = Package(
        .binaryTarget(
            name: "RSEssentials",
            url: "https://github.com/rursache/RSEssentialsXC/raw/master/RSEssentials.xcframework.zip",
-           checksum: "313b00468a058c3680a78e441d89a9b317800f9e0268de245ee26327ba6a588f")
+           checksum: "c72c1561b3a0c773f636f3da4308a2f662ac33d1401ce5c05cb01961153e711b")
    ]
 )
