@@ -3,6 +3,7 @@
 <img src="https://i.imgur.com/xRZRZiF.png" width="100" height="100">
 
 RSEssentials is a collection of utils and extensions used on all projects I work on.
+
 Jump-start any new project, keep existing code-bases clean and save your sanity with this AIO framework.
 
 ## Installation
