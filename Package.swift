@@ -27,7 +27,7 @@ let package = Package(
         ),
        .binaryTarget(
            name: "RSEssentials",
-           path: "RSEssentials.xcframework.zip",
+           path: "RSEssentials.xcframework.zip"
        )
    ]
 )
