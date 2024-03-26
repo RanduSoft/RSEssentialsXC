@@ -3,22 +3,25 @@
 import PackageDescription
  
 let package = Package(
-   name: "RSEssentials",
-   platforms: [.iOS("13.2")],
-   products: [
-       .library(
-           name: "RSEssentials",
-           targets: ["RSEssentialsTarget"]
-       ),
-   ],
-   targets: [
-       .target(
+    name: "RSEssentials",
+    platforms: [
+        .iOS(.v15),
+        .macOS(.v13),
+        .tvOS(.v15),
+        .watchOS(.v9),
+        .visionOS(.v1)
+    ],
+    products: [
+        .library(
+            name: "RSEssentials",
+            targets: ["RSEssentialsTarget"]
+        ),
+    ],
+    targets: [
+        .target(
             name: "RSEssentialsTarget",
             dependencies: ["RSEssentials", "RSEssentialsDesignables"],
-            path: "Wrapper",
-            resources: [
-                .copy("PrivacyInfo.xcprivacy")
-            ]
+            path: "Wrapper"
         ),
         .target(
             name: "RSEssentialsDesignables",
