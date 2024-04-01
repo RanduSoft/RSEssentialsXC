@@ -19,7 +19,6 @@ Jump-start any new project, keep existing code-bases clean and save your sanity 
 
 ## Setup
 - Add `RSEssentialsEngine.shared.setup()` in `AppDelegate`
-- In Target settings, scroll to frameworks and make sure **RSEssentials** it set to `Sign & Embed`
 - In your `Info.plist` add the key `ITSAppUsesNonExemptEncryption` with value `NO`
 
 Start by implementing and using `RSBaseViewController`, `RSUtils` and `RSLogger`
