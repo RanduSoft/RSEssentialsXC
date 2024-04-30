@@ -1,6 +1,6 @@
 # RSEssentials
 
-<img src="https://i.imgur.com/xRZRZiF.png" width="100" height="100">
+<img src="https://i.imgur.com/k5dbkzM.png" width="100" height="100">
 
 RSEssentials is a collection of utils and extensions used on all projects I work on.
 
@@ -24,7 +24,7 @@ Jump-start any new project, keep existing code-bases clean and save your sanity 
 Start by implementing and using `RSBaseViewController`, `RSUtils` and `RSLogger`
 
 ## Documentation
-[![pages-build-deployment]()](https://github.com/RanduSoft/RSEssentialsXC/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/RanduSoft/RSEssentialsXC/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/RanduSoft/RSEssentialsXC/actions/workflows/pages/pages-build-deployment)
 
 The documentation is available [here](https://RanduSoft.github.io/RSEssentialsXC/documentation/rsessentials) 
 
