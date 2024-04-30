@@ -24,9 +24,9 @@ Jump-start any new project, keep existing code-bases clean and save your sanity 
 Start by implementing and using `RSBaseViewController`, `RSUtils` and `RSLogger`
 
 ## Documentation
-[![pages-build-deployment](https://github.com/rursache/RSEssentialsXC/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/rursache/RSEssentialsXC/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment]()](https://github.com/RanduSoft/RSEssentialsXC/actions/workflows/pages/pages-build-deployment)
 
-The documentation is available [here](https://rursache.github.io/RSEssentialsXC/documentation/rsessentials) 
+The documentation is available [here](https://RanduSoft.github.io/RSEssentialsXC/documentation/rsessentials) 
 
 ## License
-RSEssentials is available under the **MPL-2.0 license**. See the [LICENSE](https://github.com/rursache/RSEssentialsXC/blob/master/LICENSE) file for more info.
+RSEssentials is available under the **MPL-2.0 license**. See the [LICENSE](https://github.com/RanduSoft/RSEssentialsXC/blob/master/LICENSE) file for more info.
