@@ -2,12 +2,15 @@
 //  RSExtension Designables
 //
 //  Created by Radu Ursache - RanduSoft
-//  Version: 1.0.1
+//  Version: 1.0.2
 //
 
+#if canImport(UIKit)
 import UIKit
+#endif
 import RSEssentials
 
+#if os(iOS)
 public extension UIBarButtonItem {
     /// The localizable key for the title of the bar button item.
     @IBInspectable var localizableKey: String {
@@ -80,7 +83,11 @@ public extension UITextView {
             }
         }
     }
+}
+#endif
     
+#if os(iOS) || os(tvOS)
+public extension UITextView {
     /// The placeholder text of the text view.
     @IBInspectable var placeholder: String {
         get {
@@ -128,3 +135,5 @@ public extension UIView {
         }
     }
 }
+#endif
+
