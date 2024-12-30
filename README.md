@@ -14,7 +14,7 @@ Jump-start any new project, keep existing code-bases clean and save your sanity 
 - visionOS 1.0+
 
 ## Installation
-- Swift Package Manager (SPM) - `https://github.com/rursache/RSEssentialsXC`
+- Swift Package Manager (SPM) - `https://github.com/RanduSoft/RSEssentialsXC`
 - Manual `.xcframework` import (unzip `RSEssentials.xcframework.zip` and use the `RSEssentials.xcframework` inside)
 
 ## Setup
